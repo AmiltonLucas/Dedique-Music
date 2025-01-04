@@ -20,7 +20,7 @@ function Sidebar() {
     {
       name: "Reação gravada Grátis",
       icon: <FaHeart />,
-      link: "/reacao-gravada#reacao-gravada",
+      link: "/reacao-gravada",
     },
     {
       name: "Reconciliação/desculpas fem",
