@@ -6,7 +6,7 @@ import {
 } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 
-function Footer() {
+export default function Footer() {
   return (
     <footer className="bg-gray-900 text-gray-200 py-10">
       <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -92,11 +92,9 @@ function Footer() {
 
       <div className="border-t border-gray-700 mt-8 pt-4 text-center">
         <p className="text-sm">
-          © 2024 Dedique music. Todos os direitos reservados.
+          © 2025 Dedique music. Todos os direitos reservados.
         </p>
       </div>
     </footer>
   );
 }
-
-export default Footer;

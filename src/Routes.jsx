@@ -59,6 +59,7 @@ import FormaDePagamentoPage from "./Pages/ContentPages/FormaDePagamento";
 import ContatosAgendamentoPage from "./Pages/ContentPages/Contato&Agendamento";
 import ScrollToHash from "./Components/ScrollToHash/ScrollToHash";
 import DedicationFormPage from "./Pages/DedicationForm";
+import TestPage from "./Pages/Test";
 
 export default function AppRoutes() {
   return (
@@ -70,6 +71,7 @@ export default function AppRoutes() {
           {/* Users routes */}
           <Route path="*" element={<Error404 />}></Route>
           <Route path="/" element={<HomePage />}></Route>
+          <Route path="/test" element={<TestPage />}></Route>
           <Route path="/login" element={<LoginPage />}></Route>
           <Route path="/registra-se" element={<RegisterPage />}></Route>
           <Route

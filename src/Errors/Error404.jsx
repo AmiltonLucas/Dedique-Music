@@ -1,6 +1,6 @@
 import React from "react";
 
-function Error404() {
+export default function Error404() {
   return (
     <div className="h-screen flex flex-col justify-center items-center bg-gradient-to-r from-purple-600 via-pink-600 to-primary text-white animate-fadeIn">
       <h1 className="text-8xl font-extrabold mb-4 animate-bounce">404</h1>
@@ -24,4 +24,3 @@ function Error404() {
   );
 }
 
-export default Error404;

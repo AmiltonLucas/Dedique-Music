@@ -1,8 +1,8 @@
 import React from "react";
 
-function Content() {
+export default function Content() {
   return (
-    <section className="flex-1 bg-blue/40 text-white p-6 rounded-lg shadow-lg ml-6">
+    <section className="flex-1 bg-blue/40 text-white p-6 rounded-lg shadow-lg lg:ml-6">
       <div className="bg-gray-900 p-2 rounded-lg">
         <div className="text-center mb-6">
           <img
@@ -155,4 +155,3 @@ function Content() {
   );
 }
 
-export default Content;

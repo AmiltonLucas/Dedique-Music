@@ -5,6 +5,7 @@ import SearchBar from "../../../Components/Searchbar/Searchbar";
 import Sidebar from "../../../Components/Sidebar/Sidebar";
 import Footer from "../../../Components/Footer/Footer";
 import { FaRegCirclePlay } from "react-icons/fa6";
+import NavbarMobile from "../../../Components/Navbar/NavbarMobile";
 
 const songs = [
   {
@@ -40,11 +41,13 @@ export default function SaudadesPage() {
       <div className="bg-secondary/60 min-h-screen flex items-center justify-center">
         <div className="w-full max-w-6xl rounded-lg p-2">
           <Navbar />
+          <NavbarMobile />
           <Banner />
           <SearchBar />
-          <div className="flex mt-6 bg-blue/50 rounded-xl">
+          <div className="flex mt-6 bg-bg/50 rounded-xl">
             <Sidebar />
-            <section className="flex-1 bg-blue/40 text-white p-6 rounded-lg shadow-lg ml-6 items-center justify-center">
+            <section
+              className="flex-1 bg-bg/40 text-white p-6 rounded-lg shadow-lg lg:ml-6 items-center justify-center">
               <div className="bg-gray-900 p-4 rounded-lg w-full max-w-4xl">
                 <h1
                   className="text-center m-4 font-semibold text-3xl"

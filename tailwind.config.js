@@ -6,7 +6,7 @@ export default {
       colors: {
         primary: "#9F2CBF",
         secondary: "#5FA0D9",
-        blue: "#15216B",
+        bg: "#15216B",
       },
       animation: {
         fadeIn: "fadeIn 1.5s ease-in-out",

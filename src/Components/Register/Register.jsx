@@ -24,7 +24,7 @@ export default function Register() {
         </h2>
         <p className="text-sm text-gray-300 mb-6">
           Já tem uma conta?{" "}
-          <a href="/registra-se" className="text-primary/80 font-medium">
+          <a href="/login" className="text-primary/80 font-medium">
             Entrar
           </a>
         </p>
@@ -140,9 +140,9 @@ export default function Register() {
           <h2 className="text-3xl font-bold text-gray-200 mb-2">
             Crie sua conta
           </h2>
-          <p className="text-sm text-gray-300 mb-6">
+          <p className="text-sm text-gray-300 gap-2 mb-6">
             Já tem uma conta?{" "}
-            <a href="/registra-se" className="text-primary/80 font-medium">
+            <a href="/login" className="text-primary/80 font-medium">
              Entrar
             </a>
           </p>

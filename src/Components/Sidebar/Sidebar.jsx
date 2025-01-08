@@ -14,7 +14,7 @@ import { SiHuggingface } from "react-icons/si";
 import DateTime from "../DateTime/DateTime";
 import SearchBar from "../Searchbar/Searchbar";
 
-function Sidebar() {
+export default function Sidebar() {
   const items = [
     { name: "Início", icon: <FaHome />, link: "/" },
     {
@@ -273,7 +273,7 @@ function Sidebar() {
   ];
 
   return (
-    <aside className="w-64 p-4 bg-blue/50 text-white rounded-lg shadow-lg">
+    <aside className="w-64 p-4 bg-blue/50 text-white rounded-lg shadow-lg hidden lg:flex">
       <div className="bg-gray-900 p-2 rounded-lg">
         <ul className="space-y-2">
           {items.map((item, index) => (
@@ -297,5 +297,3 @@ function Sidebar() {
     </aside>
   );
 }
-
-export default Sidebar;
