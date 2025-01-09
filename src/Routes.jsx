@@ -63,6 +63,7 @@ import TestPage from "./Pages/Test";
 import UserPage from "./Pages/UserPages/UserHome";
 import UserHistoricoPage from "./Pages/UserPages/UserHistorico";
 import UserEditarPage from "./Pages/UserPages/UserEditar";
+import SobrenosPage from "./Pages/Sobrenos";
 
 export default function AppRoutes() {
   return (
@@ -78,6 +79,7 @@ export default function AppRoutes() {
           <Route path="/user" element={<UserPage />}></Route>
           <Route path="/user-historico" element={<UserHistoricoPage />}></Route>
           <Route path="/user-editar" element={<UserEditarPage />}></Route>
+          <Route path="/sobrenos" element={<SobrenosPage />}></Route>
           <Route path="/login" element={<LoginPage />}></Route>
           <Route path="/registra-se" element={<RegisterPage />}></Route>
           <Route

@@ -21,9 +21,9 @@ export default function ModalSairConta({ isOpen, onClose, children }) {
             ✕
           </button>
         </div>
-        <div className="mt-4 text-2xl">Sair da conta ?</div>
+        <div className="mt-4 text-2xl">Sair da conta?</div>
         <div className="mt-4 text-gray-500">
-          Quer realmente sair de sua conta ?
+          Quer realmente sair de sua conta?
         </div>
         <div className="mt-6 flex justify-end">
           <a href="/">
@@ -31,7 +31,7 @@ export default function ModalSairConta({ isOpen, onClose, children }) {
                 onClick={onClose}
                 className="px-4 py-2 bg-red-500 text-white rounded-lg hover:bg-red-600"
               >
-                Confirmar !
+                Confirmar!
               </button>
           </a>
         </div>

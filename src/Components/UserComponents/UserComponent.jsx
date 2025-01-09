@@ -79,7 +79,7 @@ export default function UserComponent() {
 
         <div className="mt-6 flex flex-col sm:flex-row sm:justify-between gap-2 sm:gap-0">
           <a href="/user-editar">
-            <button className="flex gap-2 px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 items-center justify-center">
+            <button className="flex gap-2 px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 items-center justify-center w-[100%]">
               Editar perfil <IoPersonAddOutline />
             </button>
           </a>

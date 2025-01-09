@@ -6,7 +6,7 @@ import SearchBar from "../../Components/Searchbar/Searchbar";
 import Footer from "../../Components/Footer/Footer";
 import Sobrenos from "../../Components/Sobrenos/Sobrenos";
 
-export default function TestPage() {
+export default function SobrenosPage() {
   return (
     <>
       <div className="bg-secondary/60 min-h-screen flex items-center justify-center">

@@ -25,17 +25,12 @@ export default function Footer() {
           <h2 className="text-lg font-bold mb-4">Links úteis</h2>
           <ul className="space-y-2">
             <li>
-              <a href="/sobre" className="hover:text-white transition">
+              <a href="/sobrenos" className="hover:text-white transition">
                 Sobre nós
               </a>
             </li>
             <li>
-              <a href="/servicos" className="hover:text-white transition">
-                Serviços
-              </a>
-            </li>
-            <li>
-              <a href="/contato" className="hover:text-white transition">
+              <a href="/sobrenos#contato" className="hover:text-white transition">
                 Contato
               </a>
             </li>
