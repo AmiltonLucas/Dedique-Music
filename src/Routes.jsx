@@ -60,6 +60,9 @@ import ContatosAgendamentoPage from "./Pages/ContentPages/Contato&Agendamento";
 import ScrollToHash from "./Components/ScrollToHash/ScrollToHash";
 import DedicationFormPage from "./Pages/DedicationForm";
 import TestPage from "./Pages/Test";
+import UserPage from "./Pages/UserPages/UserHome";
+import UserHistoricoPage from "./Pages/UserPages/UserHistorico";
+import UserEditarPage from "./Pages/UserPages/UserEditar";
 
 export default function AppRoutes() {
   return (
@@ -72,6 +75,9 @@ export default function AppRoutes() {
           <Route path="*" element={<Error404 />}></Route>
           <Route path="/" element={<HomePage />}></Route>
           <Route path="/test" element={<TestPage />}></Route>
+          <Route path="/user" element={<UserPage />}></Route>
+          <Route path="/user-historico" element={<UserHistoricoPage />}></Route>
+          <Route path="/user-editar" element={<UserEditarPage />}></Route>
           <Route path="/login" element={<LoginPage />}></Route>
           <Route path="/registra-se" element={<RegisterPage />}></Route>
           <Route

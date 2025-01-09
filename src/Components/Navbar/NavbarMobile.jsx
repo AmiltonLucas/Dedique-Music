@@ -24,6 +24,8 @@ import {
 } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import { FiLogIn } from "react-icons/fi";
+import Perfil from "../../Assets/icons/perfil.png";
+import { IoPersonAddOutline } from "react-icons/io5";
 
 const navigation = {
   categories: [
@@ -300,6 +302,14 @@ const navigation = {
   ],
 };
 
+const user = {
+  name: "José Airton",
+  email: "joseairton8712@gmail.com",
+  phone: "+55 88 99999 9999",
+  location: "Juazeiro do Norte, Ceará",
+  subscription: "Padrão",
+};
+
 export default function NavbarMobile() {
   const [open, setOpen] = useState(false);
 
@@ -339,6 +349,22 @@ export default function NavbarMobile() {
                   <FiLogIn /> Entrar
                 </a>
               </div>
+              <a href="/user">
+                <div className="flex flex-col sm:flex-row items-center sm:space-x-4 mt-4">
+                  <img
+                    src={Perfil}
+                    alt="User Avatar"
+                    className="w-20 h-20 rounded-full border-2 border-blue-500 hover:border-primary cursor-pointer transition-all"
+
+                  />
+                  <div className="text-center sm:text-left mt-4 sm:mt-0">
+                    <h1 className="text-2xl font-semibold text-gray-800">
+                      {user.name}
+                    </h1>
+                    <p className="text-sm text-gray-500">{user.email}</p>
+                  </div>
+                </div>
+              </a>
             </div>
             <TabGroup className="mt-2">
               <div className="border-b border-gray-200">
