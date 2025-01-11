@@ -1,6 +1,7 @@
 import React from "react";
 import { FiLogIn } from "react-icons/fi";
 import Perfil from "../../Assets/icons/perfil.png";
+import Logo from "../../../public/logo2.png"
 
 const user = {
   name: "José Airton",
@@ -13,6 +14,10 @@ const user = {
 export default function Navbar() {
   return (
     <nav className="bg-primary/70 text-gray-200 py-3 rounded-lg shadow-md mt-4 mb-4 justify-around hidden lg:flex">
+      <a href="/">
+        <span className="sr-only">Dedique Music</span>
+        <img alt="" src={Logo} className="h-12 w-auto" />
+      </a>
       <a href="/" className="font-bold hover:text-white m-auto">
         ♥ Início
       </a>
@@ -34,7 +39,7 @@ export default function Navbar() {
       >
         ♥ Declaração de amor
       </a>
-     <a
+      <a
         href="/login"
         className="font-bold hover:text-white flex gap-1 items-center m-auto"
       >

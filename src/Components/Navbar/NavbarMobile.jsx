@@ -26,6 +26,7 @@ import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import { FiLogIn } from "react-icons/fi";
 import Perfil from "../../Assets/icons/perfil.png";
 import { IoPersonAddOutline } from "react-icons/io5";
+import Logo from "../../../public/logo2.png"
 
 const navigation = {
   categories: [
@@ -449,7 +450,7 @@ export default function NavbarMobile() {
                   <span className="sr-only">Dedique Music</span>
                   <img
                     alt=""
-                    src="https://tailwindui.com/plus/img/logos/mark.svg?color=indigo&shade=600"
+                    src={Logo}
                     className="h-8 w-auto"
                   />
                 </a>

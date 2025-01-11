@@ -4,7 +4,7 @@ import Navbar from "../../Components/Navbar/Navbar";
 import Banner from "../../Components/Banner/Banner";
 import SearchBar from "../../Components/Searchbar/Searchbar";
 import Footer from "../../Components/Footer/Footer";
-import Sobrenos from "../../Components/Sobrenos/Sobrenos";
+import Payment from "../../Components/Payment/Payment";
 
 export default function TestPage() {
   return (
@@ -17,7 +17,7 @@ export default function TestPage() {
           <SearchBar />
           {/* Main Content */}
           <div className="mt-6 bg-bg/50 rounded-xl justify-center flex ">
-            <Sobrenos />
+            <Payment />
           </div>
         </div>
       </div>
