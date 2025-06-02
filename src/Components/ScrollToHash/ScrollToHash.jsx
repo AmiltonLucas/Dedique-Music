@@ -1,3 +1,5 @@
+// Codigo fonte da animação de scroll!
+
 import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
 

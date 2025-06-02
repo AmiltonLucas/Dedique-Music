@@ -1,3 +1,5 @@
+// Codigo do modal referente a confirmação de saida de conta logada no site!
+
 import { ExclamationTriangleIcon } from "@heroicons/react/16/solid";
 import React from "react";
 

@@ -1,3 +1,5 @@
+// Codigo fonte de revisão de compra!
+
 import React from "react";
 import LenoBrega from "../../Assets/Images/Lenobrega.png"
 

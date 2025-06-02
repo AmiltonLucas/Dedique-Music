@@ -1,3 +1,5 @@
+// codigo fonte da navbar desktop!
+
 import React from "react";
 import { FiLogIn } from "react-icons/fi";
 import Perfil from "../../Assets/icons/perfil.png";

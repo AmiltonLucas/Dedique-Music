@@ -1,3 +1,5 @@
+// Codigo fonte do banner do site!
+
 import React from "react";
 import BannerImg from "../../Assets/Images/Banner.jpg";
 

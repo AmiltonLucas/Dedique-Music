@@ -1,3 +1,5 @@
+// Codigo fonte de historico de pedidos/compras!
+
 import React from 'react';
 
 const orders = [

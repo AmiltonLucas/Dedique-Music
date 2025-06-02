@@ -1,3 +1,5 @@
+// Codigo fonte da criação de novas contas!
+
 import React from "react";
 import Background from "../../Assets/Images/Login/background.jfif";
 import BackgroundMobile from "../../Assets/Images/Login/background.jpg";

@@ -1,3 +1,5 @@
+// Local de dedicação de musicas!
+
 import React from "react";
 import Banner from "../../Components/Banner/Banner";
 import DedicationForm from "../../Components/DedicationForm/DeticationForm";

@@ -1,3 +1,5 @@
+// Codigo fonte da barra de pesquisa!
+
 import React from "react";
 import { FaSearch } from "react-icons/fa";
 

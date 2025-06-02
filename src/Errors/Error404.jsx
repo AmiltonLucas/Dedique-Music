@@ -1,3 +1,5 @@
+// Pagina de error 404 (quando a pagina que procura não existe ou está offline)!
+
 import React from "react";
 
 export default function Error404() {

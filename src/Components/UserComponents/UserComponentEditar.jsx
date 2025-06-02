@@ -1,3 +1,5 @@
+// Codigo fonte de edição de informações de usuario!
+
 import React, { useState } from "react";
 
 export default function UserComponentEditar() {

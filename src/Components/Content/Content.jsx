@@ -1,3 +1,5 @@
+// Codigo fonte do conteudo da home page!
+
 import React from "react";
 
 export default function Content() {

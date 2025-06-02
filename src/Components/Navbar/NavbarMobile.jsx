@@ -1,3 +1,4 @@
+// COdigo fonte da navbar Mobile!
 "use client";
 import {
   FaHome,
@@ -26,7 +27,7 @@ import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import { FiLogIn } from "react-icons/fi";
 import Perfil from "../../Assets/icons/perfil.png";
 import { IoPersonAddOutline } from "react-icons/io5";
-import Logo from "../../../public/logo2.png"
+import Logo from "../../../public/logo2.png";
 
 const navigation = {
   categories: [
@@ -42,259 +43,259 @@ const navigation = {
             {
               name: "Reação gravada Grátis",
               icon: <FaHeart />,
-              href: "/reacao-gravada#reacao-gravada",
+              href: "/musics-grid",
             },
             {
               name: "Reconciliação/desculpas fem",
               icon: <SiHuggingface />,
-              href: "/reconciliacaoF#reconciliacaoF",
+              href: "/musics-grid",
             },
             {
               name: "Reconciliação/desculpas masc",
               icon: <SiHuggingface />,
-              href: "/reconciliacaoM#reconciliacaoM",
+              href: "/musics-grid",
             },
             {
               name: "Declaração de amor masc",
               icon: <FaHeart />,
-              href: "/declaracao-amor-masc#declaracao-amor-masc",
+              href: "/musics-grid",
             },
             {
               name: "Declaração de amor fem",
               icon: <FaHeart />,
-              href: "/declaracao-amor-fem#declaracao-amor-fem",
+              href: "/musics-grid",
             },
             {
               name: "Aniversário romântico",
               icon: <FaBirthdayCake />,
-              href: "/aniversario-romantico#aniversario-romantico",
+              href: "/musics-grid",
             },
             {
               name: "Aniversário esposo(a)",
               icon: <FaUsers />,
-              href: "/aniversario-esposo-esposa#aniversario-esposo-esposa",
+              href: "/musics-grid",
             },
             {
               name: "Aniv alguém especial",
               icon: <FaGift />,
-              href: "/aniversario-especial#aniversario-especial",
+              href: "/musics-grid",
             },
             {
               name: "Aniversário de mãe",
               icon: <FaUsers />,
-              href: "/aniversario-mae#aniversario-mae",
+              href: "/musics-grid",
             },
             {
               name: "Aniv de pai",
               icon: <FaUsers />,
-              href: "/aniversario-pai#aniversario-pai",
+              href: "/musics-grid",
             },
             {
               name: "Aniv de filha",
               icon: <FaUsers />,
-              href: "/aniversario-filha#aniversario-filha",
+              href: "/musics-grid",
             },
             {
               name: "Aniv filho",
               icon: <FaUsers />,
-              href: "/aniversario-filho#aniversario-filho",
+              href: "/musics-grid",
             },
             {
               name: "Aniv amigo",
               icon: <FaSmile />,
-              href: "/aniversario-amigo#aniversario-amigo",
+              href: "/musics-grid",
             },
             {
               name: "Aniv amiga",
               icon: <FaSmile />,
-              href: "/aniversario-amiga#aniversario-amiga",
+              href: "/musics-grid",
             },
             {
               name: "Aniv irmã",
               icon: <FaUsers />,
-              href: "/aniversario-irma#aniversario-irma",
+              href: "/musics-grid",
             },
             {
               name: "Aniv irmão",
               icon: <FaUsers />,
-              href: "/aniversario-irmao#aniversario-irmao",
+              href: "/musics-grid",
             },
             {
               name: "Aniversário de Tios",
               icon: <FaUsers />,
-              href: "/aniversario-tios#aniversario-tios",
+              href: "/musics-grid",
             },
             {
               name: "Aniv de padrinhos",
               icon: <FaUsers />,
-              href: "/aniversario-padrinhos#aniversario-padrinhos",
+              href: "/musics-grid",
             },
             {
               name: "Aniv de avós",
               icon: <FaUsers />,
-              href: "/aniversario-avos#aniversario-avos",
+              href: "/musics-grid",
             },
             {
               name: "Aniv sobrinhos",
               icon: <FaUsers />,
-              href: "/aniversario-sobrinhos#aniversario-sobrinhos",
+              href: "/musics-grid",
             },
             {
               name: "Aniv de nora e genro",
               icon: <FaUsers />,
-              href: "/aniversario-nora-genro#aniversario-nora-genro",
+              href: "/musics-grid",
             },
             {
               name: "Aniv de sogros",
               icon: <FaUsers />,
-              href: "/aniversario-sogros#aniversario-sogros",
+              href: "/musics-grid",
             },
             {
               name: "Aniv casamento",
               icon: <FaGift />,
-              href: "/aniversario-casamento#aniversario-casamento",
+              href: "/musics-grid",
             },
             {
               name: "Aniv namoro",
               icon: <FaHeart />,
-              href: "/aniversario-namoro#aniversario-namoro",
+              href: "/musics-grid",
             },
             {
               name: "Dia dos Pais",
               icon: <FaHandsHelping />,
-              href: "/dia-dos-pais#dia-dos-pais",
+              href: "/musics-grid",
             },
             {
               name: "Aniv comadre",
               icon: <FaUsers />,
-              href: "/aniversario-comadre#aniversario-comadre",
+              href: "/musics-grid",
             },
             {
               name: "Aniversario geral",
               icon: <FaBirthdayCake />,
-              href: "/aniversario-geral#aniversario-geral",
+              href: "/musics-grid",
             },
             {
               name: "Aniversário de cunhados",
               icon: <FaUsers />,
-              href: "/aniversario-cunhados#aniversario-cunhados",
+              href: "/musics-grid",
             },
             {
               name: "Dia das mães",
               icon: <FaHandsHelping />,
-              href: "/dia-das-maes#dia-das-maes",
+              href: "/musics-grid",
             },
             {
               name: "Dia dos namorados f",
               icon: <FaHeart />,
-              href: "/dia-dos-namorados-f#dia-dos-namorados-f",
+              href: "/musics-grid",
             },
             {
               name: "Dia dos namorados M",
               icon: <FaHeart />,
-              href: "/dia-dos-namorados-m#dia-dos-namorados-m",
+              href: "/musics-grid",
             },
             {
               name: "Dia internacional da mulher",
               icon: <FaSmile />,
-              href: "/dia-internacional-mulher#dia-internacional-mulher",
+              href: "/musics-grid",
             },
             {
               name: "Dia dos Avós 26/07",
               icon: <FaUsers />,
-              href: "/dia-dos-avos#dia-dos-avos",
+              href: "/musics-grid",
             },
             {
               name: "Mensagens de feliz natal",
               icon: <FaGift />,
-              href: "/feliz-natal#feliz-natal",
+              href: "/musics-grid",
             },
             {
               name: "Mensagens de amizade",
               icon: <FaSmile />,
-              href: "/mensagens-amizade#mensagens-amizade",
+              href: "/musics-grid",
             },
             {
               name: "Conquistas",
               icon: <FaSmile />,
-              href: "/conquistas#conquistas",
+              href: "/musics-grid",
             },
             {
               name: "Pedido de casamento",
               icon: <FaHeart />,
-              href: "/pedido-casamento#pedido-casamento",
+              href: "/musics-grid",
             },
             {
               name: "Pedido de namoro",
               icon: <FaHeart />,
-              href: "/pedido-namoro#pedido-namoro",
+              href: "/musics-grid",
             },
-            { name: "Otimismo", icon: <FaSmile />, href: "/otimismo#otimismo" },
-            { name: "Saudades", icon: <FaSmile />, href: "/saudades#saudades" },
+            { name: "Otimismo", icon: <FaSmile />, href: "/musics-grid" },
+            { name: "Saudades", icon: <FaSmile />, href: "/musics-grid" },
             {
               name: "Românticas evangélicas",
               icon: <FaHeart />,
-              href: "/romanticas-evangelicas#romanticas-evangelicas",
+              href: "/musics-grid",
             },
             {
               name: "Românticas suaves",
               icon: <FaHeart />,
-              href: "/romanticas-suaves#romanticas-suaves",
+              href: "/musics-grid",
             },
             {
               name: "Desculpas geral",
               icon: <FaQuestionCircle />,
-              href: "/desculpas-geral#desculpas-geral",
+              href: "/musics-grid",
             },
             {
               name: "Agradecimentos",
               icon: <FaHandsHelping />,
-              href: "/agradecimentos#agradecimentos",
+              href: "/musics-grid",
             },
             {
               name: "Homenagens",
               icon: <FaHandsHelping />,
-              href: "/homenagens#homenagens",
+              href: "/musics-grid",
             },
             {
               name: "Dicas de relacionamento",
               icon: <FaHeart />,
-              href: "/dicas-relacionamento#dicas-relacionamento",
+              href: "/musics-grid",
             },
             {
               name: "Românticas e aniv do ex",
               icon: <FaHeart />,
-              href: "/romanticas-ex#romanticas-ex",
+              href: "/musics-grid",
             },
             {
               name: "Romantica por tel",
               icon: <FaPhone />,
-              href: "/romantica-por-tel#romantica-por-tel",
+              href: "/musics-grid",
             },
             {
               name: "Romantica distantes",
               icon: <FaHeart />,
-              href: "/romantica-distantes#romantica-distantes",
+              href: "/musics-grid",
             },
             {
               name: "Dia do amigo",
               icon: <FaSmile />,
-              href: "/dia-do-amigo#dia-do-amigo",
+              href: "/musics-grid",
             },
             {
               name: "Opinião de clientes",
               icon: <FaSmile />,
-              href: "/opiniao-clientes#opiniao-clientes",
+              href: "/musics-grid",
             },
             {
               name: "Forma de pagamento",
               icon: <FaQuestionCircle />,
-              href: "/forma-pagamento#forma-pagamento",
+              href: "/musics-grid",
             },
             {
               name: "Contatos e agendamento",
               icon: <FaPhone />,
-              href: "/contatos-agendamento#contatos-agendamento",
+              href: "/musics-grid",
             },
           ],
         },
@@ -356,7 +357,6 @@ export default function NavbarMobile() {
                     src={Perfil}
                     alt="User Avatar"
                     className="w-20 h-20 rounded-full border-2 border-blue-500 hover:border-primary cursor-pointer transition-all"
-
                   />
                   <div className="text-center sm:text-left mt-4 sm:mt-0">
                     <h1 className="text-2xl font-semibold text-gray-800">
@@ -448,11 +448,7 @@ export default function NavbarMobile() {
               <div className="ml-4 flex lg:ml-0">
                 <a href="#">
                   <span className="sr-only">Dedique Music</span>
-                  <img
-                    alt=""
-                    src={Logo}
-                    className="h-8 w-auto"
-                  />
+                  <img alt="" src={Logo} className="h-8 w-auto" />
                 </a>
                 <p className="m-auto ml-2 text-2xl text-white">Dedique Music</p>
               </div>

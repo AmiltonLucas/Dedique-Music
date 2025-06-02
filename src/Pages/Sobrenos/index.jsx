@@ -1,3 +1,5 @@
+// Pagina de sobre da dedique music!
+
 import React from "react";
 import NavbarMobile from "../../Components/Navbar/NavbarMobile";
 import Navbar from "../../Components/Navbar/Navbar";

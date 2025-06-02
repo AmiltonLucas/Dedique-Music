@@ -1,3 +1,5 @@
+// pagina apenas para testes de novas funções e front-end!
+
 import React from "react";
 import NavbarMobile from "../../Components/Navbar/NavbarMobile";
 import Navbar from "../../Components/Navbar/Navbar";

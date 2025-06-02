@@ -1,3 +1,5 @@
+// Codigo fonte sobre informações do d usuario!
+
 import React, { useState } from "react";
 import Perfil from "../../Assets/icons/perfil.png";
 import Modal from "../../Events/ModalError/ModalError";

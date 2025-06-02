@@ -1,15 +1,14 @@
-// page inicial do site!
+// Pagina de confirmação de pedidos! 
 
 import React from "react";
-import Banner from "../../Components/Banner/Banner";
+import NavbarMobile from "../../Components/Navbar/NavbarMobile";
 import Navbar from "../../Components/Navbar/Navbar";
-import Sidebar from "../../Components/Sidebar/Sidebar";
-import Content from "../../Components/Content/Content";
+import Banner from "../../Components/Banner/Banner";
 import SearchBar from "../../Components/Searchbar/Searchbar";
 import Footer from "../../Components/Footer/Footer";
-import NavbarMobile from "../../Components/Navbar/NavbarMobile";
+import Payment from "../../Components/Payment/Payment";
 
-export default function HomePage() {
+export default function ConfirmarPedidoPage() {
   return (
     <>
       <div className="bg-secondary/60 min-h-screen flex items-center justify-center">
@@ -18,12 +17,9 @@ export default function HomePage() {
           <NavbarMobile />
           <Banner />
           <SearchBar />
-          <div className="hidden lg:flex mt-6 bg-bg/50 rounded-xl">
-            <Sidebar />
-            <Content />
-          </div>
-          <div className="mt-6 rounded-xl bg-bg/50 lg:hidden">
-            <Content />
+          {/* Main Content */}
+          <div className="mt-6 bg-bg/50 rounded-xl justify-center flex ">
+            <Payment />
           </div>
         </div>
       </div>

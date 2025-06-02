@@ -1,3 +1,5 @@
+// pagina "Home" das configurações de perfil dos users!
+
 import React from "react";
 import Navbar from "../../../Components/Navbar/Navbar";
 import NavbarMobile from "../../../Components/Navbar/NavbarMobile";

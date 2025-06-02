@@ -1,3 +1,5 @@
+// Codigo do modal referente a algum error não esperado!
+
 import { ExclamationTriangleIcon } from "@heroicons/react/16/solid";
 import React from "react";
 

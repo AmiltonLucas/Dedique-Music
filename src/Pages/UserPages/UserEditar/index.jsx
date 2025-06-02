@@ -1,3 +1,5 @@
+// Pagina de edição de informações dos users do site!
+
 import React from "react";
 import Navbar from "../../../Components/Navbar/Navbar";
 import NavbarMobile from "../../../Components/Navbar/NavbarMobile";

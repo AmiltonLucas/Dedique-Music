@@ -1,3 +1,5 @@
+// Codigo fonte da footer do site!
+
 import React from "react";
 import {
   FaFacebookF,
