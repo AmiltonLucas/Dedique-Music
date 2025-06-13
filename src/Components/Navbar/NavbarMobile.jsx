@@ -33,11 +33,9 @@ const navigation = {
   categories: [
     {
       id: "menu",
-      name: "Menu",
       sections: [
         {
           id: "musicas",
-          name: "Músicas",
           items: [
             { name: "Início", icon: <FaHome />, href: "/" },
             {
@@ -372,10 +370,9 @@ export default function NavbarMobile() {
                 <TabList className="-mb-px flex space-x-8 px-4">
                   {navigation.categories.map((category) => (
                     <Tab
-                      key={category.name}
                       className="flex-1 whitespace-nowrap border-b-2 border-transparent px-1 py-4 text-base font-medium text-gray-900 data-[selected]:border-primary data-[selected]:text-primary"
                     >
-                      {category.name}
+                      Menu
                     </Tab>
                   ))}
                 </TabList>
@@ -383,16 +380,15 @@ export default function NavbarMobile() {
               <TabPanels as={Fragment}>
                 {navigation.categories.map((category) => (
                   <TabPanel
-                    key={category.name}
                     className="space-y-10 px-4 pb-8 pt-10"
                   >
                     {category.sections.map((section) => (
                       <div key={section.name}>
                         <p
-                          id={`${category.id}-${section.id}-heading-mobile`}
-                          className="font-medium text-gray-900"
+                          id={`${section.id}-heading-mobile`}
+                          className="font-medium text-gray-900 text-center"
                         >
-                          {section.name}
+                          Musicas {/* Nome musicas */}
                         </p>
                         <ul
                           role="list"
