@@ -17,7 +17,7 @@ export default function VideoMaker() {
   return (
     <>
       {/* Área com upload de imagem e música */}
-      <div className=" bg-gray-900 rounded-xl shadow p-4 m-4 h-[100%]">
+      <div className=" bg-gray-900 rounded-xl shadow p-4 m-4 h-[100%] mx-auto">
         <h2 className="text-xl text-white font-bold mb-4 text-center">
           Prompt de Imagens e Música
         </h2>
