@@ -24,10 +24,10 @@ export default function Navbar() {
         ♥ Início
       </a>
       <a
-        href="/reacao-gravada#reacao-gravada"
+        href="/video-maker"
         className="font-bold hover:text-white m-auto"
       >
-        ♥ Reação gravada
+        ♥ Crie seu vídeo
       </a>
       <a
         href="/reconciliacaoF#reconciliacaoF"

@@ -10,6 +10,7 @@ import {
   FaHandsHelping,
   FaQuestionCircle,
   FaPhone,
+  FaVideo,
 } from "react-icons/fa";
 import { SiHuggingface } from "react-icons/si";
 import { Fragment, useState } from "react";
@@ -39,9 +40,9 @@ const navigation = {
           items: [
             { name: "Início", icon: <FaHome />, href: "/" },
             {
-              name: "Reação gravada Grátis",
-              icon: <FaHeart />,
-              href: "/musics-grid",
+              name: "Crie seu vídeo",
+              icon: <FaVideo />,
+              href: "/video-maker",
             },
             {
               name: "Reconciliação/desculpas fem",

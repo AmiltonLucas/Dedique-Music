@@ -2,13 +2,12 @@ import React, { useState } from "react";
 import Banner from "../../Components/Banner/Banner";
 import Navbar from "../../Components/Navbar/Navbar";
 import Sidebar from "../../Components/Sidebar/Sidebar";
-import Content from "../../Components/Content/Content";
 import SearchBar from "../../Components/Searchbar/Searchbar";
 import Footer from "../../Components/Footer/Footer";
 import NavbarMobile from "../../Components/Navbar/NavbarMobile";
 import VideoMaker from "../../Components/VideoMaker/VideoMaker";
 
-export default function TestPage() {
+export default function VideoMakerPage() {
   return (
     <>
       <div className="bg-secondary/60 min-h-screen flex items-center justify-center">

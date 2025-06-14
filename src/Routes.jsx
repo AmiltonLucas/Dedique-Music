@@ -15,6 +15,7 @@ import SobrenosPage from "./Pages/Sobrenos";
 import ConfirmarPedidoPage from "./Pages/ConfirmarPedidoPage";
 import ContentPages from "./Pages/ContentPages";
 import DedicationFormPage from "./Pages/DedicationForm";
+import VideoMakerPage from "./Pages/VideoMakerPage";
 
 export default function AppRoutes() {
   return (
@@ -36,6 +37,7 @@ export default function AppRoutes() {
           <Route path="/confirmar-pedido" element={<ConfirmarPedidoPage />}></Route> {/* ROTA DA PAGE CONFIRMAR PEDIDO */}
           <Route path="/musics-grid" element={<ContentPages />}></Route> {/* ROTA DA PAGE GRID DE MUSICAS */}
           <Route path="/form-detication" element={<DedicationFormPage />}></Route> {/* ROTA DA PAGE DE DEDICAR MUSICA */}
+          <Route path="/video-maker" element={<VideoMakerPage />}></Route> {/* ROTA DA PAGE DE CRIAR VIDEO */}
         </Routes>
       </BrowserRouter>
     </>
